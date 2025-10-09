@@ -17,8 +17,8 @@ Piece of Cake 2 is a community-maintained fork of CakePHP 2.x, providing PHP 8.x
 ### Core Repositories
 
 - [CakePHP](https://github.com/pieceofcake2/cakephp) - CakePHP 2.x framework
-- [App](https://github.com/pieceofcake2/app) - Application skeleton
-- [Plugin](https://github.com/pieceofcake2/plugin) - Plugin skeleton
+- [App Skeleton](https://github.com/pieceofcake2/app) - Application skeleton
+- [Plugin Skeleton](https://github.com/pieceofcake2/plugin) - Plugin skeleton
 - [Bake Plugin](https://github.com/pieceofcake2/bake) - Code generation tool
 - [Upgrade Plugin](https://github.com/pieceofcake2/upgrade) - Upgrade utility
 
@@ -47,7 +47,7 @@ All plugins are compatible with PHP 8.x.
 #### Templating
 
 - [TwigView Plugin](https://github.com/pieceofcake2/twig-view) - Twig template engine
-- [CsvView Plugin](https://github.com/pieceofcake2/csvview) - CSV view class
+- [CsvView Plugin](https://github.com/pieceofcake2/csv-view) - CSV view class
 
 #### View Helpers
 
