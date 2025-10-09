@@ -22,60 +22,66 @@ Piece of Cake 2 is a community-maintained fork of CakePHP 2.x, providing PHP 8.x
 - [Bake](https://github.com/pieceofcake2/bake) - Code generation tool
 - [Upgrade](https://github.com/pieceofcake2/upgrade) - Upgrade utility
 
+### Development Tools
+
+- [PHPStan CakePHP](https://github.com/pieceofcake2/phpstan-cakephp2) - PHPStan extension for static analysis
+
 ### Maintained Plugins
 
 All plugins are compatible with PHP 8.x.
 
 #### Debugging
 
-- [DebugKit](https://github.com/pieceofcake2/debug_kit) - Debug toolbar
+- [DebugKit Plugin](https://github.com/pieceofcake2/debug_kit) - Debug toolbar
 
 #### Infrastructure
 
-- [Aws](https://github.com/pieceofcake2/aws) - AWS SDK integration
-- [Bref](https://github.com/pieceofcake2/bref) - AWS Lambda deployment with Bref
+- [Aws Plugin](https://github.com/pieceofcake2/aws) - AWS SDK integration
+- [Bref Plugin](https://github.com/pieceofcake2/bref) - AWS Lambda deployment with Bref
 
 #### Logging & Monitoring
 
-- [Monolog](https://github.com/pieceofcake2/monolog) - Monolog integration
-- [Sentry](https://github.com/pieceofcake2/sentry) - Error tracking and monitoring
+- [Monolog Plugin](https://github.com/pieceofcake2/monolog) - Monolog integration
+- [Sentry Plugin](https://github.com/pieceofcake2/sentry) - Error tracking and monitoring
 
 #### Templating
 
-- [TwigView](https://github.com/pieceofcake2/twig-view) - Twig template engine
+- [TwigView Plugin](https://github.com/pieceofcake2/twig-view) - Twig template engine
+- [CsvView Plugin](https://github.com/pieceofcake2/csvview) - CSV view class
 
 #### View Helpers
 
-- [Markdown](https://github.com/pieceofcake2/markdown) - Markdown helper
-- [MenuBuilder](https://github.com/pieceofcake2/menu_builder) - Navigation menu helper
-- [WebpackEncore](https://github.com/pieceofcake2/webpack-encore) - Webpack Encore asset helper
+- [Markdown Plugin](https://github.com/pieceofcake2/markdown) - Markdown helper
+- [MenuBuilder Plugin](https://github.com/pieceofcake2/menu_builder) - Navigation menu helper
+- [WebpackEncore Plugin](https://github.com/pieceofcake2/webpack-encore) - Webpack Encore asset helper
 
 #### Forms & Validation
 
-- [Xform](https://github.com/pieceofcake2/xform) - Extended form helper
-- [Cakeplus](https://github.com/pieceofcake2/cakeplus) - Form utilities and enhancements
+- [Xform Plugin](https://github.com/pieceofcake2/xform) - Extended form helper
+- [Cakeplus Plugin](https://github.com/pieceofcake2/cakeplus) - Form utilities and enhancements
 
 #### Database
 
-- [Datasources](https://github.com/pieceofcake2/datasources) - Additional datasources
+- [Datasources Plugin](https://github.com/pieceofcake2/datasources) - Additional datasources
 
 #### Authentication and Authorization
 
-- [Authenticate](https://github.com/pieceofcake2/authenticate) - Authentication classes
+- [Authenticate Plugin](https://github.com/pieceofcake2/authenticate) - Authentication classes
 
 #### Files
 
-- [Imagine](https://github.com/pieceofcake2/imagine) - Image processing library wrapper
-- [CakePdf](https://github.com/pieceofcake2/cakepdf) - PDF generation
+- [Upload Plugin](https://github.com/pieceofcake2/upload) - File upload handling
+- [Imagine Plugin](https://github.com/pieceofcake2/imagine) - Image processing library wrapper
+- [CakePdf Plugin](https://github.com/pieceofcake2/cakepdf) - PDF generation
 
 #### SEO
 
-- [Seo](https://github.com/pieceofcake2/seo) - Search engine optimization
-- [Sitemap](https://github.com/pieceofcake2/sitemap) - Sitemap generation
+- [Seo Plugin](https://github.com/pieceofcake2/seo) - Search engine optimization
+- [Sitemap Plugin](https://github.com/pieceofcake2/sitemap) - Sitemap generation
 
 #### I18n
 
-- [Localized](https://github.com/pieceofcake2/localized) - Localization utilities
+- [Localized Plugin](https://github.com/pieceofcake2/localized) - Localization utilities
 
 ### Documentation
 
