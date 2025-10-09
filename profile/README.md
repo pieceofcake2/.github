@@ -1,7 +1,5 @@
 # Community-maintained fork of CakePHP 2
 
-## About
-
 Piece of Cake 2 is a community-maintained fork of CakePHP 2.x, providing PHP 8.x compatibility for existing legacy applications.
 
 > [!IMPORTANT]
