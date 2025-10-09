@@ -19,8 +19,8 @@ Piece of Cake 2 is a community-maintained fork of CakePHP 2.x, providing PHP 8.x
 - [CakePHP](https://github.com/pieceofcake2/cakephp) - CakePHP 2.x framework
 - [App](https://github.com/pieceofcake2/app) - Application skeleton
 - [Plugin](https://github.com/pieceofcake2/plugin) - Plugin skeleton
-- [Bake](https://github.com/pieceofcake2/bake) - Code generation tool
-- [Upgrade](https://github.com/pieceofcake2/upgrade) - Upgrade utility
+- [Bake Plugin](https://github.com/pieceofcake2/bake) - Code generation tool
+- [Upgrade Plugin](https://github.com/pieceofcake2/upgrade) - Upgrade utility
 
 ### Development Tools
 
