@@ -26,34 +26,56 @@ Piece of Cake 2 is a community-maintained fork of CakePHP 2.x, providing PHP 8.x
 
 All plugins are compatible with PHP 8.x.
 
-#### Development Tools
+#### Debugging
 
 - [DebugKit](https://github.com/pieceofcake2/debug_kit) - Debug toolbar
 
-#### View & Templating
+#### Infrastructure
+
+- [Aws](https://github.com/pieceofcake2/aws) - AWS SDK integration
+- [Bref](https://github.com/pieceofcake2/bref) - AWS Lambda deployment with Bref
+
+#### Logging & Monitoring
+
+- [Monolog](https://github.com/pieceofcake2/monolog) - Monolog integration
+- [Sentry](https://github.com/pieceofcake2/sentry) - Error tracking and monitoring
+
+#### Templating
 
 - [TwigView](https://github.com/pieceofcake2/twig-view) - Twig template engine
-- [Xform](https://github.com/pieceofcake2/xform) - Extended form helper
-- [Markdown](https://github.com/pieceofcake2/markdown) - Markdown helper
-- [MenuBuilder](https://github.com/pieceofcake2/menu_builder) - Dynamic menu building
 
-#### Image & File Processing
+#### View Helpers
+
+- [Markdown](https://github.com/pieceofcake2/markdown) - Markdown helper
+- [MenuBuilder](https://github.com/pieceofcake2/menu_builder) - Navigation menu helper
+- [WebpackEncore](https://github.com/pieceofcake2/webpack-encore) - Webpack Encore asset helper
+
+#### Forms & Validation
+
+- [Xform](https://github.com/pieceofcake2/xform) - Extended form helper
+- [Cakeplus](https://github.com/pieceofcake2/cakeplus) - Form utilities and enhancements
+
+#### Database
+
+- [Datasources](https://github.com/pieceofcake2/datasources) - Additional datasources
+
+#### Authentication and Authorization
+
+- [Authenticate](https://github.com/pieceofcake2/authenticate) - Authentication classes
+
+#### Files
 
 - [Imagine](https://github.com/pieceofcake2/imagine) - Image processing library wrapper
 - [CakePdf](https://github.com/pieceofcake2/cakepdf) - PDF generation
 
-#### SEO & Content
+#### SEO
 
 - [Seo](https://github.com/pieceofcake2/seo) - Search engine optimization
 - [Sitemap](https://github.com/pieceofcake2/sitemap) - Sitemap generation
 
-#### Infrastructure & Utilities
+#### I18n
 
-- [Datasources](https://github.com/pieceofcake2/datasources) - Additional datasources
-- [Authenticate](https://github.com/pieceofcake2/authenticate) - Authentication classes
-- [Monolog](https://github.com/pieceofcake2/monolog) - Monolog integration
 - [Localized](https://github.com/pieceofcake2/localized) - Localization utilities
-- [Cakeplus](https://github.com/pieceofcake2/cakeplus) - Additional utilities
 
 ### Documentation
 
