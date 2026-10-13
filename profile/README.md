@@ -53,6 +53,7 @@ All plugins are compatible with PHP 8.x.
 
 - [Markdown Plugin](https://github.com/pieceofcake2/markdown) - Markdown helper
 - [MenuBuilder Plugin](https://github.com/pieceofcake2/menu_builder) - Navigation menu helper
+- [Vite Plugin](https://github.com/pieceofcake2/vite) - Vite asset helper with dev server support
 - [WebpackEncore Plugin](https://github.com/pieceofcake2/webpack-encore) - Webpack Encore asset helper
 
 #### Forms & Validation
@@ -62,11 +63,12 @@ All plugins are compatible with PHP 8.x.
 
 #### Database
 
-- [Datasources Plugin](https://github.com/pieceofcake2/datasources) - Additional datasources
+- [Datasources Plugin](https://github.com/pieceofcake2/datasources) - Additional datasources (CSV / TSV files, arrays and more)
 
 #### Authentication and Authorization
 
 - [Authenticate Plugin](https://github.com/pieceofcake2/authenticate) - Authentication classes
+- [AclExtras Plugin](https://github.com/pieceofcake2/acl_extras) - Console tools for managing ACL tables
 
 #### Files
 
