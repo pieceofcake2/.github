@@ -41,4 +41,4 @@ Please include as much of the following as you can:
 Please keep the details private until a fix has been released.
 
 Fixed vulnerabilities are listed in the documentation:
-https://pieceofcake2.github.io/docs/pieceofcake2/security
+https://pieceofcake2.github.io/docs/appendices/security-fixes
