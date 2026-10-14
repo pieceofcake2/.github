@@ -91,6 +91,14 @@ git remote add upstream https://github.com/pieceofcake2/cakephp.git
 composer install
 ```
 
+The framework's development dependencies require `pieceofcake2/cakephp` itself,
+so on a branch whose name Composer can't map to a version (for example
+`fix/something`), tell Composer which version the checkout is, as CI does:
+
+```bash
+COMPOSER_ROOT_VERSION=2.12.x-dev composer install
+```
+
 ### Running the Tests
 
 Tests run on PHPUnit 9.6:
