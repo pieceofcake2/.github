@@ -5,6 +5,10 @@ Piece of Cake 2 is a community-maintained fork of CakePHP 2.x, providing PHP 8.x
 > [!IMPORTANT]
 > This fork is only for maintaining existing legacy applications. Do not use CakePHP 2.x for new projects - use [CakePHP 5.x](https://cakephp.org/) instead.
 
+## Documentation
+
+- [CakePHP 2 Book](https://pieceofcake2.github.io/docs/) - The CakePHP 2 Cookbook, updated for Piece of Cake 2 (English / Japanese)
+
 ## Features
 
 - **PHP 8.x Support**: Full compatibility with modern PHP versions
@@ -84,10 +88,6 @@ All plugins are compatible with PHP 8.x.
 #### I18n
 
 - [Localized Plugin](https://github.com/pieceofcake2/localized) - Localization utilities
-
-### Documentation
-
-- [CakePHP 2.x Book](https://book.cakephp.org/2/en/)
 
 ## Contributing
 
