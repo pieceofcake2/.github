@@ -1,0 +1,63 @@
+name: ci-summary
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'actions/ci-summary/**'
+      - '.github/workflows/ci-summary.yml'
+  pull_request:
+    branches:
+      - '**'
+    paths:
+      - 'actions/ci-summary/**'
+      - '.github/workflows/ci-summary.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        php-version:
+          - '8.0'
+          - '8.5'
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php-version }}
+          coverage: none
+
+      - name: Run tests
+        run: php actions/ci-summary/tests/run.php
+
+      # Writes the summaries of a few fixtures, to see how they look on the run page.
+      - name: PHPUnit summary
+        uses: ./actions/ci-summary
+        with:
+          type: junit
+          title: PHPUnit — fixture with failures (PHP ${{ matrix.php-version }})
+          file: actions/ci-summary/tests/fixtures/phpunit9-failures.xml
+
+      - name: phpcs summary
+        uses: ./actions/ci-summary
+        with:
+          type: checkstyle
+          title: PHPCS — fixture
+          file: actions/ci-summary/tests/fixtures/phpcs-errors.xml
+
+      - name: Missing report
+        uses: ./actions/ci-summary
+        with:
+          type: phpstan
+          title: PHPStan — missing report
+          file: phpstan.json
