@@ -64,6 +64,7 @@ All plugins are compatible with PHP 8.x.
 
 - [Xform Plugin](https://github.com/pieceofcake2/xform) - Extended form helper
 - [Cakeplus Plugin](https://github.com/pieceofcake2/cakeplus) - Form utilities and enhancements
+- [Captcha Plugin](https://github.com/pieceofcake2/captcha) - Cloudflare Turnstile, reCAPTCHA and hCaptcha
 
 #### Database
 
