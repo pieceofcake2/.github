@@ -29,6 +29,7 @@ Piece of Cake 2 is a community-maintained fork of CakePHP 2.x, providing PHP 8.x
 ### Development Tools
 
 - [PHPStan CakePHP](https://github.com/pieceofcake2/phpstan-cakephp2) - PHPStan extension for static analysis
+- [E2E Test](https://github.com/pieceofcake2/e2e-test) - Browser end-to-end tests with PHPUnit and Symfony Panther
 
 ### Maintained Plugins
 
