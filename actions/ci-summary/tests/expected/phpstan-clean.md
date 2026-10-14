@@ -1,3 +1,0 @@
-### ✅ PHPStan
-
-No errors.
