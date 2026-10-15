@@ -66,6 +66,7 @@ All plugins are compatible with PHP 8.x.
 - [Xform Plugin](https://github.com/pieceofcake2/xform) - Extended form helper
 - [Cakeplus Plugin](https://github.com/pieceofcake2/cakeplus) - Form utilities and enhancements
 - [Captcha Plugin](https://github.com/pieceofcake2/captcha) - Cloudflare Turnstile, reCAPTCHA and hCaptcha
+- [Purifiable Plugin](https://github.com/pieceofcake2/purifiable) - HTML sanitization of model fields with HTML Purifier
 
 #### Database
 
@@ -75,6 +76,8 @@ All plugins are compatible with PHP 8.x.
 
 - [Authenticate Plugin](https://github.com/pieceofcake2/authenticate) - Authentication classes
 - [AclExtras Plugin](https://github.com/pieceofcake2/acl_extras) - Console tools for managing ACL tables
+- [AclMenu Plugin](https://github.com/pieceofcake2/acl_menu) - Navigation menus of the actions allowed by ACL
+- [Totp Plugin](https://github.com/pieceofcake2/totp) - Two-factor authentication with one-time passwords (TOTP)
 
 #### Files
 
