@@ -7,7 +7,7 @@ Piece of Cake 2 is a community-maintained fork of CakePHP 2.x, providing PHP 8.x
 
 ## Documentation
 
-- [CakePHP 2 Book](https://pieceofcake2.github.io/docs/) - The CakePHP 2 Cookbook, updated for Piece of Cake 2 (English / Japanese)
+- [CakePHP 2 Book](https://pieceofcake2.github.io/docs/) ([Markdown](https://github.com/pieceofcake2/docs/blob/2.x/docs/en/index.md)) - The CakePHP 2 Cookbook, updated for Piece of Cake 2 (English / Japanese)
 
 ## Features
 

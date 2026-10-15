@@ -4,7 +4,7 @@ Thank you for your interest in contributing. This guide applies to all
 repositories in the [pieceofcake2](https://github.com/pieceofcake2)
 organization, unless a repository has its own `CONTRIBUTING.md`. It is the
 canonical contribution guide; the
-[Contributing](https://pieceofcake2.github.io/docs/contributing) chapter of the
+[Contributing](https://pieceofcake2.github.io/docs/contributing.html) chapter of the
 documentation links here.
 
 ## Scope
@@ -41,7 +41,7 @@ longer maintained there.
 
 Before you open an issue, search the existing issues, and check the
 repository's `CHANGELOG.md` and `UPGRADE.md` (for the framework, also
-[Migrating from CakePHP 2.10](https://pieceofcake2.github.io/docs/appendices/migrating-from-cakephp-2-10)):
+[Migrating from CakePHP 2.10](https://pieceofcake2.github.io/docs/appendices/migrating-from-cakephp-2-10.html)):
 the behavior you see may be an intended change of the fork.
 
 Please include:
@@ -193,7 +193,7 @@ authority: the change must pass `vendor/bin/phpcs` with no errors and no
 warnings. Use `vendor/bin/phpcbf` to fix most violations automatically.
 
 All code and comments are written in English. See
-[Coding Standards](https://pieceofcake2.github.io/docs/contributing/cakephp-coding-conventions)
+[Coding Standards](https://pieceofcake2.github.io/docs/contributing/cakephp-coding-conventions.html)
 in the documentation for a description of the rules.
 
 ### Backwards Compatibility
