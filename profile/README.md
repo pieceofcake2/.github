@@ -34,6 +34,12 @@ Names link to the documentation site of each package (English, with a Japanese t
 - [PHPStan CakePHP](https://pieceofcake2.github.io/phpstan-cakephp2/) ([Markdown](https://github.com/pieceofcake2/phpstan-cakephp2/blob/main/docs/README.md)) - PHPStan extension for static analysis
 - [PHPCS CakePHP2](https://pieceofcake2.github.io/phpcs-cakephp2/) ([Markdown](https://github.com/pieceofcake2/phpcs-cakephp2/blob/main/docs/README.md)) - PHP_CodeSniffer standard for CakePHP 2
 - [Panther](https://pieceofcake2.github.io/panther/) ([Markdown](https://github.com/pieceofcake2/panther/blob/1.x/docs/README.md)) - End-to-End tests with Symfony Panther
+- [Storybook](https://pieceofcake2.github.io/storybook/) ([Markdown](https://github.com/pieceofcake2/storybook/blob/1.x/docs/README.md)) - Storybook for the Elements of an application
+- [Report](https://pieceofcake2.github.io/report/) ([Markdown](https://github.com/pieceofcake2/report/blob/1.x/docs/README.md)) - A4 PDF reports printed by a headless Chrome, for Panther and the security checks
+- [Security Check](https://pieceofcake2.github.io/security-check/) ([Markdown](https://github.com/pieceofcake2/security-check/blob/1.x/docs/README.md)) - The security checks (SCA, SAST and DAST) in one command
+- [Security SCA](https://pieceofcake2.github.io/security-sca/) ([Markdown](https://github.com/pieceofcake2/security-sca/blob/1.x/docs/README.md)) - Known vulnerabilities of the Composer packages, as a PDF report
+- [Security SAST](https://pieceofcake2.github.io/security-sast/) ([Markdown](https://github.com/pieceofcake2/security-sast/blob/1.x/docs/README.md)) - Static analysis of the code and the configuration with Semgrep or PHPStan, as a PDF report
+- [Security DAST](https://pieceofcake2.github.io/security-dast/) ([Markdown](https://github.com/pieceofcake2/security-dast/blob/1.x/docs/README.md)) - Scan of the running application with OWASP ZAP, as a PDF report
 
 ### Maintained Plugins
 
@@ -88,6 +94,7 @@ All plugins are compatible with PHP 8.x.
 
 - [Upload Plugin](https://pieceofcake2.github.io/upload/) ([Markdown](https://github.com/pieceofcake2/upload/blob/2.x/docs/README.md)) - File upload handling
 - [Imagine Plugin](https://pieceofcake2.github.io/imagine/) ([Markdown](https://github.com/pieceofcake2/imagine/blob/1.x/docs/README.md)) - Image processing library wrapper
+- [Image Plugin](https://pieceofcake2.github.io/image/) ([Markdown](https://github.com/pieceofcake2/image/blob/1.x/docs/README.md)) - Validation of uploaded images by their contents (JPEG, PNG, GIF, WebP and SVG)
 - [CakePdf Plugin](https://pieceofcake2.github.io/cakepdf/) ([Markdown](https://github.com/pieceofcake2/cakepdf/blob/1.x/docs/README.md)) - PDF generation
 
 #### SEO
